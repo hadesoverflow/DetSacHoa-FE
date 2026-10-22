@@ -865,10 +865,10 @@ C58.3,39.1,57.8,38.5,57.1,38.5z" />
                             <img src="/wp-content/themes/unseen/public/images/Logo_Detsachoa.png" alt="Dệt Sắc Hoa Logo" className="btn__inner-icon world-btn__inner-icon absolute fill js-world-hover-icon" style={{ width: '100%', height: '100%', objectFit: 'contain', padding: '5px', zIndex: 10, filter: 'invert(1) brightness(100)' }} />
                             <div className="world-btn__text absolute fill z-40">
                                 <div className="world-btn__text-left">
-                                    <span className="t-uppercase js-world-text-left">Unseen</span>
+                                    <span className="t-uppercase js-world-text-left">3D</span>
                                 </div>
                                 <div className="world-btn__text-right">
-                                    <span className="t-uppercase js-world-text-right">World</span>
+                                    <span className="t-uppercase js-world-text-right">Studio</span>
                                 </div>
                             </div>
                         </div>
