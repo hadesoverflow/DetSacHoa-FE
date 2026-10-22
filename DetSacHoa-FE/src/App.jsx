@@ -585,7 +585,7 @@ C58.3,39.1,57.8,38.5,57.1,38.5z" />
                     </div>
                 </div>
             </div>
-            <div className="project-filters | js-project-filters" style={{ visibility: 'hidden', opacity: '0' }}>
+            <div className="project-filters | js-project-filters" style={{ display: 'none', visibility: 'hidden', opacity: 0, pointerEvents: 'none', position: 'absolute', top: '-9999px', left: '-9999px', width: 0, height: 0, overflow: 'hidden', zIndex: -9999 }}>
                 <div className="project-filters__overlay js-project-filters:overlay"></div>
                 <div className="project-filters__inner | js-project-filters-inner">
                     <h1 className="project-filters__title | t-sans t-offblack t-center t-ls--2">Selected Projects</h1>
@@ -617,26 +617,21 @@ C58.3,39.1,57.8,38.5,57.1,38.5z" />
                     </div>
                 </div>
             </div>
-            <div className="d-none">
+            <div className="d-none" style={{ display: 'none', visibility: 'hidden', opacity: 0, pointerEvents: 'none', position: 'absolute', top: '-9999px', left: '-9999px', width: 0, height: 0, overflow: 'hidden', zIndex: -9999 }}>
 
-                <div className="js-view-projects-btn" style={{ visibility: 'hidden' }}>
-                    <a href="https://unseen.co/projects/" title="View our work" className="btn btn--regular btn--fill btn--light js-manager-ignore js-btn" data-btn="fill" data-cursor="hide">
+                <div className="js-view-projects-btn" style={{ display: 'none', visibility: 'hidden', opacity: 0, pointerEvents: 'none', position: 'absolute', top: '-9999px', left: '-9999px', width: 0, height: 0, overflow: 'hidden', zIndex: -9999 }}>
+                    <a href="#hidden" title="" className="btn btn--regular btn--fill btn--light js-manager-ignore js-btn" data-btn="fill" data-cursor="hide" style={{ display: 'none', visibility: 'hidden', opacity: 0, pointerEvents: 'none' }}>
                         <span className="btn__inner js-btn-inner">
                             <span className="btn__content js-btn-content">
                                 <span className="d-flex flex-row items-end">
-                                    <span className="btn__text">
-                                        View our work
-                                    </span>
-                                    <svg className="btn__icon d-inline-block js-btn-icon">
-                                        <use xlinkHref="https://unseen.co/wp-content/themes/unseen/public/images/svgsprite.svg#arrow"></use>
-                                    </svg>
+                                    <span className="btn__text"></span>
                                 </span>
                             </span>
                         </span>
                     </a>
                 </div>
 
-                <div className="w-1/1 w-auto@sm js-contact-content" style={{ visibility: 'hidden' }}>
+                <div className="w-1/1 w-auto@sm js-contact-content" style={{ display: 'none', visibility: 'hidden', opacity: 0, pointerEvents: 'none', position: 'absolute', top: '-9999px', left: '-9999px', width: 0, height: 0, overflow: 'hidden', zIndex: -9999 }}>
                     <div className="d-flex flex-column flex-row@sm mt-8 mt-0@sm pb-5 pb-0@sm">
                         <div className="d-flex flex-column items-center items-end@sm mr-2@sm">
                             <div className="mb-2 | js-reveal-anim">

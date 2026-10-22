@@ -67,6 +67,23 @@
             visibility: hidden !important;
             pointer-events: none !important;
         }
+        .js-view-projects-btn,
+        .js-project-filters,
+        .js-contact-content,
+        [title="View our work"],
+        a[href*="unseen.co/projects"] {
+            display: none !important;
+            opacity: 0 !important;
+            visibility: hidden !important;
+            pointer-events: none !important;
+            position: absolute !important;
+            top: -9999px !important;
+            left: -9999px !important;
+            width: 0 !important;
+            height: 0 !important;
+            overflow: hidden !important;
+            z-index: -9999 !important;
+        }
         body.not-home {
             overflow: auto !important;
             overscroll-behavior-y: auto !important;
