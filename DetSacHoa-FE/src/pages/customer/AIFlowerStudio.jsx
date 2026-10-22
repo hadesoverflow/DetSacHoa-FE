@@ -397,8 +397,8 @@ export default function AIFlowerStudio({ onClose }) {
 
               {/* AR Adjustment Controls Overlay */}
               <div className="ai-ar-control-bar">
-                <span style={{ fontSize: '0.8rem', color: '#475569', fontWeight: 600 }}>
-                  Kích Thước Bình:
+                <span className="ai-ar-label">
+                  Kích Thước:
                 </span>
                 <input 
                   type="range" 
@@ -407,13 +407,13 @@ export default function AIFlowerStudio({ onClose }) {
                   step="0.05"
                   value={vaseScale}
                   onChange={(e) => setVaseScale(parseFloat(e.target.value))}
-                  style={{ accentColor: '#f43f5e', cursor: 'pointer' }}
+                  className="ai-ar-slider"
                 />
-                <span style={{ fontSize: '0.82rem', color: '#be123c', fontWeight: 700 }}>
+                <span className="ai-ar-percent">
                   {Math.round(vaseScale * 100)}%
                 </span>
-                <span style={{ fontSize: '0.75rem', color: '#64748b', borderLeft: '1px solid #fecdd3', paddingLeft: '0.85rem' }}>
-                  Kéo thả bình hoa đến vị trí bàn/kệ trong phòng
+                <span className="ai-ar-hint">
+                  ✦ Kéo thả bình hoa để ướm vị trí
                 </span>
               </div>
             </div>
