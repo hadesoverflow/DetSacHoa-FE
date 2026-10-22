@@ -1,0 +1,40 @@
+{
+  "models": [
+    {
+      "id": "ribbed_luoshen_roses",
+      "name": "Bình Gốm Sứ Trụ Gân Ngang & Hoa Hồng Lạc Thần",
+      "modelPath": "/models/vases/ribbed_luoshen_roses.glb",
+      "category": "handcrafted_ceramic_elegance",
+      "dimensions": { "height": 36, "diameter": 28 },
+      "flowers": "Hồng Lạc Thần Hồng Phấn & Trắng Kem Bơ, Nụ Hồng, Hạt Ngọc & Hoa Sao Li Ti",
+      "vaseStyle": "Bình Gốm Sứ Trắng Trụ Tròn 16 Gân Ngang",
+      "defaultColor": "#faf7f2",
+      "roughness": 0.32,
+      "metalness": 0.03
+    },
+    {
+      "id": "fluted_proud_roses",
+      "name": "Bình Sứ Khía Tân Cổ Điển & Hoa Hồng Proud Trắng",
+      "modelPath": "/models/vases/fluted_proud_roses.glb",
+      "category": "neoclassical_porcelain",
+      "dimensions": { "height": 42, "diameter": 24 },
+      "flowers": "Hoa Hồng Proud Ecuador Trắng Ngọc & Cành Lá Hồng",
+      "vaseStyle": "Bình Sứ Khía 28 Múi Sọc Dọc Men Bóng Trắng Ngọc",
+      "defaultColor": "#f8f9fa",
+      "roughness": 0.22,
+      "metalness": 0.05
+    },
+    {
+      "id": "cat_pitcher_red_roses",
+      "name": "Bình Gốm Quai Rót Hai Chú Mèo & Hoa Hồng Nhung Đỏ",
+      "modelPath": "/models/vases/cat_pitcher_red_roses.glb",
+      "category": "handmade_ceramic_art",
+      "dimensions": { "height": 38, "diameter": 22 },
+      "flowers": "Hoa Hồng Nhung Đỏ & Cỏ Đồng Nội",
+      "vaseStyle": "Bình Gốm Dáng Quai Rót Vẽ Tranh Hai Chú Mèo",
+      "defaultColor": "#fbf8f3",
+      "roughness": 0.28,
+      "metalness": 0.04
+    }
+  ]
+}
